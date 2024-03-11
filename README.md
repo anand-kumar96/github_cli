@@ -62,11 +62,11 @@ git commit -m "Initial commit"
 ```
 ### Switch to the main branch
 ```https
-git remote add origin <remote_repository_url>
+git checkout -b main
 ```
 ### Add remote repository (origin)
 ```https
-git checkout -b main
+git remote add origin <remote_repository_url>
 ```
 Make sure to replace <remote_repository_url> with the URL of your remote repository (e.g., https://github.com/username/repositoryname.git).
 
