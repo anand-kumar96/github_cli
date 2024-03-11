@@ -15,20 +15,20 @@ for mac
 brew install gh
 ```
 
-## Authentication
+## 2. Authentication
 Before creating a repository using `gh`, you need to authenticate with your GitHub account. You can do this by running the following command and following the prompts:
 
 ```bash
 gh auth login
 ```
-## Creating a Repository
+## 3. Creating a Repository
 Once authenticated, create a new repository on GitHub with the following command:
 ```https
 gh repo create <repository_name>
 ```
 Replace <repository_name> with the name of your repository.
 
-## Retrieving the Remote Repository URL
+## 4. Retrieving the Remote Repository URL
 After creating the repository, gh will provide you with information about the newly created repository, including its URL. You can capture this URL for later use.
 ## Example Usage
 
