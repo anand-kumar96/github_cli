@@ -5,6 +5,10 @@ To generate a remote repository URL without leaving the terminal, you can use Gi
 ## Installation
 
 If you haven't already installed `gh`, you can do so by following the installation instructions provided on GitHub's website: [GitHub CLI Installation](https://cli.github.com/).
+or run command : 
+```https
+choco install gh
+```
 
 ## Authentication
 
@@ -12,3 +16,4 @@ Before creating a repository using `gh`, you need to authenticate with your GitH
 
 ```bash
 gh auth login
+```
