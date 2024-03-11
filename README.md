@@ -5,11 +5,13 @@ To generate a remote repository URL without leaving the terminal, you can use Gi
 ## Installation
 
 If you haven't already installed `gh`, you can do so by following the installation instructions provided on GitHub's website: [GitHub CLI Installation](https://cli.github.com/).
-
+### Or Run command
+for window
 ```https
-for window:
 choco install gh
-for mac:
+```
+for mac
+```https
 brew install gh
 ```
 
