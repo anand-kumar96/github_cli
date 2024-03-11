@@ -25,6 +25,8 @@ gh auth login
 Once authenticated, create a new repository on GitHub with the following command:
 ```https
 gh repo create <repository_name>
+or
+gh rep new
 ```
 Replace <repository_name> with the name of your repository.
 
@@ -39,6 +41,8 @@ gh auth login
 ### Create a new repository
 ```https
 gh repo create my_project
+or
+gh repo new
 ```
 ### Move into the new directory
 ```https
