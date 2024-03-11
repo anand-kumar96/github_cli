@@ -60,6 +60,16 @@ git add .
 ```https
 git commit -m "Initial commit"
 ```
+### Switch to the main branch
+```https
+git remote add origin <remote_repository_url>
+```
+### Add remote repository (origin)
+```https
+git checkout -b main
+```
+Make sure to replace <remote_repository_url> with the URL of your remote repository (e.g., https://github.com/username/repositoryname.git).
+
 ### Push to the remote repository
 ```https
 git push origin main
