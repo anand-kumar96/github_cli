@@ -32,31 +32,31 @@ Replace <repository_name> with the name of your repository.
 After creating the repository, gh will provide you with information about the newly created repository, including its URL. You can capture this URL for later use.
 ## Example Usage
 
-# Authenticate with GitHub
+### Authenticate with GitHub
 ```https
 gh auth login
-
-# Create a new repository
+```
+### Create a new repository
 ```https
 gh repo create my_project
 ```
-# Move into the new directory
+### Move into the new directory
 ```https
 cd my_project
 ```
-# Initialize Git repository
+### Initialize Git repository
 ```https
 git init
 ```
-# Add files
+### Add files
 ```https
 git add .
 ```
-# Commit changes
+### Commit changes
 ```https
 git commit -m "Initial commit"
 ```
-# Push to the remote repository
+### Push to the remote repository
 ```https
 git push origin main
 ```
