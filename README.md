@@ -44,10 +44,6 @@ gh repo create my_project
 or
 gh repo new
 ```
-### Move into the new directory
-```https
-cd my_project
-```
 ### Initialize Git repository
 ```https
 git init
