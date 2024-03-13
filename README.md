@@ -58,7 +58,7 @@ git commit -m "Initial commit"
 ```
 ### Switch to the main branch
 ```https
-git checkout -b main
+git branch -M main
 ```
 ### Add remote repository (origin)
 ```https
