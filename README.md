@@ -40,10 +40,9 @@ gh auth login
 ```
 ### Create a new repository
 ```https
-gh repo create my_project
-or
-gh repo new
+gh repo create
 ```
+### follow step and create repo name and reply all questions
 ### Initialize Git repository
 ```https
 git init
