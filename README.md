@@ -24,7 +24,7 @@ gh auth login
 ## 3. Creating a Repository
 Once authenticated, create a new repository on GitHub with the following command:
 ```https
-gh repo create <repository_name>
+gh repo create
 or
 gh rep new
 ```
